@@ -12,7 +12,7 @@ fs.readFile('index.html', (err, html) => {
     const server = http.createServer((req, res) =>{
         res.statusCode = 200;
         res.setHeader('content-type', 'text/html');
-        res.write(html);
+        res.write(Hello obi own conobi);
         res.end();
     });
 
